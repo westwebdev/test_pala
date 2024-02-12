@@ -1,0 +1,74 @@
+{
+    "pending": {
+        "displayName": {
+            "en": "Pending",
+            "sk": "Dokončené"
+        },
+        "variation": [
+            {
+                "id": "new",
+                "displayName": {
+                    "en": "New",
+                    "sk": "Nový"
+                }
+            },
+            {
+                "id": "waiting_for_confirmation",
+                "displayName": {
+                    "en": "Waiting for confirmation",
+                    "sk": "Čaká sa na potvrdenie"
+                }
+            },
+            {
+                "id": "confirmed",
+                "displayName": {
+                    "en": "Confirmed",
+                    "sk": "Potvrdené"
+                }
+            }
+        ]
+    },
+    "completed": {
+        "displayName": {
+            "en": "Completed",
+            "sk": "Dokončené"
+        },
+        "variation": [
+            {
+                "id": "completed",
+                "displayName": {
+                    "en": "Completed",
+                    "sk": "Dokončené"
+                }
+            },
+            {
+                "id": "canceled_by_customer",
+                "displayName": {
+                    "en": "Canceled by customer",
+                    "sk": "Zrušené zákazníkom"
+                }
+            },
+            {
+                "id": "rejected",
+                "displayName": {
+                    "en": "Rejected",
+                    "sk": "Odmietnuté"
+                }
+            },
+            {
+                "id": "expired",
+                "displayName": {
+                    "en": "Expired",
+                    "sk": "Platnosť vypršala"
+                }
+            },
+            {
+                "id": "failed",
+                "displayName": {
+                    "en": "Failed",
+                    "sk": "Nepodarilo sa"
+                }
+            }
+        ]
+    }
+}

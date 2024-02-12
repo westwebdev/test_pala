@@ -1,0 +1,19 @@
+.loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+
+    //loading__img
+    &__img {
+        height: 150px;
+        animation: logo-spin infinite 20s linear;
+    }
+
+    //loading__text
+    &__text {
+        text-align: center;
+    }
+}

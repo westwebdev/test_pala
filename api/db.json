@@ -1,0 +1,260 @@
+{
+  "orderStatus": {
+    "pending": {
+      "displayName": {
+        "en": "Pending",
+        "sk": "Dokončené"
+      },
+      "variation": [
+        {
+          "id": "new",
+          "displayName": {
+            "en": "New",
+            "sk": "Nový"
+          }
+        },
+        {
+          "id": "waiting_for_confirmation",
+          "displayName": {
+            "en": "Waiting for confirmation",
+            "sk": "Čaká sa na potvrdenie"
+          }
+        },
+        {
+          "id": "confirmed",
+          "displayName": {
+            "en": "Confirmed",
+            "sk": "Potvrdené"
+          }
+        }
+      ]
+    },
+    "completed": {
+      "displayName": {
+        "en": "Completed",
+        "sk": "Dokončené"
+      },
+      "variation": [
+        {
+          "id": "completed",
+          "displayName": {
+            "en": "Completed",
+            "sk": "Dokončené"
+          }
+        },
+        {
+          "id": "canceled_by_customer",
+          "displayName": {
+            "en": "Canceled by customer",
+            "sk": "Zrušené zákazníkom"
+          }
+        },
+        {
+          "id": "rejected",
+          "displayName": {
+            "en": "Rejected",
+            "sk": "Odmietnuté"
+          }
+        },
+        {
+          "id": "expired",
+          "displayName": {
+            "en": "Expired",
+            "sk": "Platnosť vypršala"
+          }
+        },
+        {
+          "id": "failed",
+          "displayName": {
+            "en": "Failed",
+            "sk": "Nepodarilo sa"
+          }
+        }
+      ]
+    }
+  },
+  "orders": [
+    {
+      "orderId": 1,
+      "date": "2015-10-23",
+      "productItems": [
+        {
+          "pid": 11,
+          "productName": "Salad",
+          "quantity": 10,
+          "price": 30.99,
+          "totalPrice": 309.9
+        },
+        {
+          "pid": 12,
+          "productName": "Potato",
+          "quantity": 5,
+          "price": 10.99,
+          "totalPrice": 54.95
+        },
+        {
+          "pid": 13,
+          "productName": "Table",
+          "quantity": 2,
+          "price": 130,
+          "totalPrice": 260
+        }
+      ],
+      "status": "new",
+      "totalPrice": 624.85
+    },
+    {
+      "orderId": 2,
+      "date": "2015-10-12",
+      "productItems": [
+        {
+          "pid": 11,
+          "productName": "Salad",
+          "quantity": 10,
+          "price": 30.99,
+          "totalPrice": 309.9
+        },
+        {
+          "pid": 12,
+          "productName": "Potato",
+          "quantity": 5,
+          "price": 10.99,
+          "totalPrice": 54.95
+        },
+        {
+          "pid": 13,
+          "productName": "Table",
+          "quantity": 2,
+          "price": 130,
+          "totalPrice": 260
+        }
+      ],
+      "status": "canceled_by_customer",
+      "totalPrice": 624.85
+    },
+    {
+      "orderId": 3,
+      "date": "2015-09-12",
+      "productItems": [
+        {
+          "pid": 11,
+          "productName": "Salad",
+          "quantity": 10,
+          "price": 30.99,
+          "totalPrice": 309.9
+        },
+        {
+          "pid": 12,
+          "productName": "Potato",
+          "quantity": 5,
+          "price": 10.99,
+          "totalPrice": 54.95
+        }
+      ],
+      "status": "waiting_for_confirmation",
+      "totalPrice": 364.85
+    },
+    {
+      "orderId": 4,
+      "date": "2015-10-20",
+      "productItems": [
+        {
+          "pid": 11,
+          "productName": "Salad",
+          "quantity": 10,
+          "price": 30.99,
+          "totalPrice": 309.9
+        },
+        {
+          "pid": 13,
+          "productName": "Table",
+          "quantity": 2,
+          "price": 130,
+          "totalPrice": 260
+        }
+      ],
+      "status": "failed",
+      "totalPrice": 569.9
+    },
+    {
+      "orderId": 5,
+      "date": "2015-08-05",
+      "productItems": [
+        {
+          "pid": 11,
+          "productName": "Salad",
+          "quantity": 10,
+          "price": 30.99,
+          "totalPrice": 309.9
+        },
+        {
+          "pid": 12,
+          "productName": "Potato",
+          "quantity": 5,
+          "price": 10.99,
+          "totalPrice": 54.95
+        },
+        {
+          "pid": 13,
+          "productName": "Table",
+          "quantity": 2,
+          "price": 130,
+          "totalPrice": 260
+        }
+      ],
+      "status": "confirmed",
+      "totalPrice": 624.85
+    },
+    {
+      "orderId": 6,
+      "date": "2015-03-25",
+      "productItems": [
+        {
+          "pid": 11,
+          "productName": "Salad",
+          "quantity": 10,
+          "price": 30.99,
+          "totalPrice": 309.9
+        },
+        {
+          "pid": 12,
+          "productName": "Potato",
+          "quantity": 5,
+          "price": 10.99,
+          "totalPrice": 54.95
+        },
+        {
+          "pid": 13,
+          "productName": "Table",
+          "quantity": 2,
+          "price": 130,
+          "totalPrice": 260
+        }
+      ],
+      "status": "new",
+      "totalPrice": 624.85
+    },
+    {
+      "orderId": 7,
+      "date": "2015-06-02",
+      "productItems": [
+        {
+          "pid": 12,
+          "productName": "Potato",
+          "quantity": 5,
+          "price": 10.99,
+          "totalPrice": 54.95
+        },
+        {
+          "pid": 13,
+          "productName": "Table",
+          "quantity": 2,
+          "price": 130,
+          "totalPrice": 260
+        }
+      ],
+      "status": "expired",
+      "totalPrice": 314.95
+    }
+  ]
+}
