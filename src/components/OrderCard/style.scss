@@ -1,0 +1,63 @@
+.order-card {
+    background: #e7e6e6;
+    border-radius: 8px;
+    color: #000;
+    font-size: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+
+    //order-card__header
+    &__header {
+        background: #e5d3cc;
+        border-radius: 8px 8px 0 0;
+        padding: 0 10px;
+    }
+
+    //order-card__body
+    &__body {
+        padding: 0 10px;
+    }
+
+    //order-card__footer
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 10px 0;
+        margin-top: auto;
+    }
+
+    //order-card__row
+    &__row {
+        padding: 10px 0;
+    }
+
+    //order-card__id
+    &__id {
+        font-weight: bold;
+    }
+
+    //order-card__product
+    &__product {
+        border-bottom: 1px solid #fff;
+    }
+
+    //order-card__total
+    &__total {
+        display: flex;
+        justify-content: space-between;
+    }
+    //order-card__button
+    &__button {
+        border: none;
+        background: none;
+        padding: 0;
+        cursor: pointer;
+    }
+    //order-card__status
+    &__status {
+        padding: 10px;
+        background: #f4978e;
+        border-radius: 30px;
+    }
+}

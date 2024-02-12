@@ -1,0 +1,33 @@
+.order-product {
+    // display: flex;
+    width: 100%;
+
+    //order-product__quantity
+    &__quantity {
+        margin-right: 20px;
+        width: 70px;
+    }
+
+    //order-product__name
+    &__name {
+        margin-right: 10px;
+        width: 200px;
+    }
+
+    //order-product__price
+    &__price {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: right;
+    }
+
+    //order-product__total
+    &__total {
+        margin-left: auto;
+        text-align: right;
+        width: 150px;
+        &:before {
+            content: '€'
+        }
+    }
+}
